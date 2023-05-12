@@ -1,0 +1,12 @@
+
+
+
+.input-test {
+    /* padding: 20px 10px;
+    border: 2px solid red; */
+}
+
+.input-test::placeholder {
+    color: blueviolet;
+    text-align: right;
+}

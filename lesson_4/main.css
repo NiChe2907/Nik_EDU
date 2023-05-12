@@ -1,0 +1,67 @@
+/* Primitive CSS Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    /* color: red;  */
+}
+
+#container-first {
+    color: royalblue;
+}
+
+.block {
+   margin-left: 10px;
+}
+
+/* -------------------------- */
+
+.my-elems {
+    padding-left: 30px;
+}
+
+.my-elems li {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.my-elems .unique-elem {
+    color: blue;
+}
+
+.my-elems li:nth-child(5) {
+    color: aquamarine;
+}
+
+.my-elems li:last-child {
+    color: saddlebrown;
+}
+
+
+/* SCSS, SASS, LESS */
+
+ul.menu-list > li {
+    color: red;
+}
+
+ul.menu-list > ul > ul > li {
+    font-weight: bold;
+}
+
+.super-inner-ul li {
+    font-size: 12px;
+
+    background-color: red;
+}
