@@ -1,0 +1,64 @@
+#books {
+    color: red;
+    line-height: 25px;
+    padding-right: 20px;
+    padding-left: 30px;
+    font-size: 32px;
+    font-family: 'Mogra', cursive;
+}
+#january {
+    font-size: 32px;
+    font-family: 'Mogra', cursive;
+}
+#h1 {
+    line-height: 65px;
+    font-size: 64px;
+    padding-left: 32px;
+    font-family: 'Mogra', cursive;
+}
+#quote {
+    line-height: 32px;
+    font-family: 'Mogra', cursive;
+    font-size: 32px;
+    padding-left: 32px;
+}
+#by {
+    font-family:'Mogra', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 12px;
+}
+#img {
+    padding-left: 32px;
+    padding-top: 48px;
+}
+.By {
+    height: 120px;
+    padding-bottom: 24px;
+}
+#quotediv {
+    font-family: 'Mogra', cursive;
+    font-size: 96px;
+    font-weight: bold;
+}
+#divquote {
+    margin-top: 32px;
+}
+#div2 {
+    height: 128px;
+    width: 128px;
+    padding-left: 32px;
+    font-family: 'Mogra';
+    font-size: 116px;
+}
+#end {
+    font-family: 'Mogra';
+    font-size: 42px;
+}
+#massive {
+    padding-left: 32px;
+    padding-bottom: 18px;
+    margin-top: 32px;
+    font-family: 'Mogra';
+    font-size: 42px;
+}
