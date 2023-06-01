@@ -43,6 +43,7 @@
 }
 #divquote {
     margin-top: 32px;
+    display: flex;
 }
 #div2 {
     height: 128px;
@@ -54,6 +55,7 @@
 #end {
     font-family: 'Mogra';
     font-size: 42px;
+    margin-left: 20px;
 }
 #massive {
     padding-left: 32px;
@@ -61,4 +63,11 @@
     margin-top: 32px;
     font-family: 'Mogra';
     font-size: 42px;
+}
+
+
+#hr {
+    height: 2px;
+    background-color: grey;
+    margin-left: 50px;
 }
