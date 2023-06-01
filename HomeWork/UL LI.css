@@ -1,7 +1,72 @@
-ul:nth-of-type(1) > li:nth-child(2) {
+/* li:nth-of-type(2n+1), .root > li:first-child {
+    font-size: 24px;
+    background-color: lightcyan;
+} */
+
+/* li:nth-of-type(2n), .root > li:first-child {
     font-size: 24px;
     background-color: rgb(31, 194, 66);
+} */
+
+
+/* Парні - всередині непарні */
+/* Парні - всередині парні */
+/* Непарні - всередині непарні */
+/* Непарні - всередині парні */
+
+.first-solution li:nth-of-type(2n), 
+.first-solution li:nth-of-type(2n+1) + ul > li:nth-of-type(2n+1),
+.first-solution li:nth-of-type(2n) + ul > li:nth-of-type(2n+1) {
+    background-color: rgb(31, 194, 66);
 }
+
+
+.first-solution li:nth-of-type(2n+1), 
+.first-solution li:nth-of-type(2n) + ul > li:nth-of-type(2n), 
+.first-solution li:nth-of-type(2n+1) + ul > li:nth-of-type(2n) {
+    background-color: lightseagreen;
+}
+
+
+
+
+/* Specific */
+li.specific-first-item {
+    background-color: rgb(31, 194, 66);
+}
+
+li.specific-first-item + ul li:nth-of-type(2n+1) {
+    background-color: lightseagreen;
+}
+
+li.specific-first-item + ul li:nth-of-type(2n) {
+    background-color: rgb(31, 194, 66);
+}
+
+/* Second solution */
+
+
+li.green,
+.green + ul li:nth-of-type(2n) {
+    background-color: rgb(31, 194, 66);
+}
+
+.green + ul li:nth-of-type(2n+1) {
+    background-color: lightseagreen;
+}
+
+li.blue,
+.blue + ul li:nth-of-type(2n) {
+    background-color: lightseagreen;
+}
+
+.blue + ul li:nth-of-type(2n+1) {
+    background-color: rgb(31, 194, 66);
+}
+
+
+
+/* 
 ul:nth-of-type(2) li:last-child {
     font-size: 24px;
     background-color: rgb(31, 194, 66);
@@ -9,12 +74,12 @@ ul:nth-of-type(2) li:last-child {
 ul:nth-of-type(4) {
     font-size: 24px;
     background-color: rgb(31, 194, 66);
-}
+} */
 
 ul {
     list-style-type: none;
 }
-ul:not(#ul1) {
+/* ul:not(#ul1) {
     font-size: 24px;
     background-color: rgb(31, 194, 66);
-}
+} */
