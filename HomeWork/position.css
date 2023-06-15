@@ -1,0 +1,102 @@
+.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.hugered {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+
+    top: 0px;
+    left: 0px;
+
+    background-color: red;
+}
+.hugegreen {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    
+    background-color: green;
+}
+.hugeblue {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+
+    bottom: 0px;
+    left: 0px;
+    
+    background-color: blue;
+
+}
+.hugeyellow {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+
+    bottom: 0px;
+    right: 0px;
+    
+    background-color: yellow;
+}
+.smallred {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    
+    background-color: red;
+    
+    top: 250px;
+    left: 400px;
+    
+    }
+    .smallgreen {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    
+    background-color: green;
+    
+    top: 250px;
+    right: 400px;
+        
+    }
+    .smallblue {
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        
+        background-color: blue;
+        
+        bottom: 250px;
+        left: 400px;
+            
+        }
+        .smallyellow {
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            
+            background-color: yellow;
+            
+            bottom: 250px;
+            right: 400px;
+                
+        }
+        .smallpink {
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            
+            background-color: palevioletred;
+            
+            top: 550px;
+            left: 1650px;
+
+                
+        }
+    
