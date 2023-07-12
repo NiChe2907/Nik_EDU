@@ -1,0 +1,50 @@
+body {
+    background-color: #202B37;
+}
+
+
+.nav_container {
+    height: 40px;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    /* border: 1px solid white; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.nav-desktop {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+nav.nav-mobile {
+    display: none;
+}
+
+.nav-item {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    /* nav.nav-desktop {
+        display: none;
+    }
+
+    nav.nav-mobile {
+        display: flex;
+    } */
+
+
+    .desktop-only {
+        display: none;
+    }
+}

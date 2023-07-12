@@ -120,6 +120,44 @@ body {
         
 }
 
+.smallpink {
+    width: 25%;
+    /* min-width: 200px;
+    max-width: 400px; */
+
+    height: 200px;
+    position: fixed;
+    
+    background-color: palevioletred;
+    
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+}
+
+@media screen and (max-width: 1400px) {
+    .smallpink {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .smallpink {
+        width: 15%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .smallpink {
+        width: 10%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .smallpink {
+        width: 5%;
+    }
+}
+
+
+
+
 /* Tablet */
 @media screen and (max-width: 1024px) {
     .smallyellow {
